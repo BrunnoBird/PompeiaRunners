@@ -2,21 +2,25 @@
   "name": "webApp",
   "version": "1.0.0",
   "description": "Web application that uses Kotlin Multiplatform Library",
-  "type": "module",
   "scripts": {
-    "build": "tsc && vite build",
-    "start": "vite"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next dev",
+    "lint": "next lint"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "next": "16.2.4",
+    "react": "19.2.5",
+    "react-dom": "19.2.5",
     "shared": "0.0.0-unspecified"
   },
   "devDependencies": {
-    "@types/react": "^18.2.0",
-    "@types/react-dom": "^18.2.0",
-    "@vitejs/plugin-react": "^4.0.0",
-    "typescript": "^5.0.2",
-    "vite": "^7.1.6"
+    "@tailwindcss/postcss": "4.2.4",
+    "@types/node": "25.6.0",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "postcss": "8.5.10",
+    "tailwindcss": "4.2.4",
+    "typescript": "5.9.3"
   }
 }

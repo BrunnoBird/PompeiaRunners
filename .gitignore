@@ -1,19 +1,92 @@
+# ============================================================================
+# IDE & Editor
+# ============================================================================
 *.iml
-.kotlin
-.gradle
-**/build/
-xcuserdata
-!src/**/build/
-local.properties
-.idea
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
 .DS_Store
-captures
-.externalNativeBuild
-.cxx
+Thumbs.db
+
+# ============================================================================
+# Gradle & Build
+# ============================================================================
+.gradle/
+.kotlin/
+**/build/
+!src/**/build/
+gradle-app.setting
+!gradle-wrapper.jar
+.gradle-wrapper/
+
+# ============================================================================
+# Local Configuration
+# ============================================================================
+local.properties
+gradle.properties.local
+
+# ============================================================================
+# Android & Compose Multiplatform
+# ============================================================================
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+bin/
+gen/
+dexedLibs/
+
+# ============================================================================
+# iOS & Xcode
+# ============================================================================
+xcuserdata/
 *.xcodeproj/*
 !*.xcodeproj/project.pbxproj
 !*.xcodeproj/xcshareddata/
 !*.xcodeproj/project.xcworkspace/
 !*.xcworkspace/contents.xcworkspacedata
 **/xcshareddata/WorkspaceSettings.xcsettings
+Pods/
+Podfile.lock
+DerivedData/
+
+# ============================================================================
+# Node.js & Web (Next.js, React)
+# ============================================================================
 node_modules/
+npm-debug.log*
+yarn-error.log*
+.next/
+out/
+dist/
+build/
+.turbo/
+.vercel/
+.env
+.env.local
+.env.*.local
+
+# ============================================================================
+# Kotlin/JVM
+# ============================================================================
+kotlin-js-store/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+.springboot
+*.cer
+*.keystore
+*.key
+*.p12
+*.pfx
+
+# ============================================================================
+# Claude Code & Local Settings
+# ============================================================================
+.claude/settings.local.json

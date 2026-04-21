@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --animate-fade-in: fadeInFromTop 0.5s ease forwards;
+  --animate-fade-out: fadeOut 0.5s ease forwards;
+}
+
+@keyframes fadeInFromTop {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+}
