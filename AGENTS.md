@@ -36,7 +36,7 @@ iOS: open `iosApp/` in Xcode and run from there.
 | `composeApp` | Compose Multiplatform UI app | Android, iOS |
 | `shared` | Shared business logic library | Android, iOS, JVM, JS |
 | `server` | Ktor REST API backend | JVM |
-| `webApp` | React + TypeScript frontend | Browser |
+| `webApp` | Next.js + React + TypeScript frontend | Browser |
 | `iosApp` | iOS native entry point | iOS (Xcode) |
 
 ## Architecture
@@ -67,6 +67,6 @@ iOS: open `iosApp/` in Xcode and run from there.
 - **Language:** Kotlin 2.3.20
 - **UI:** Compose Multiplatform 1.10.3, Material3
 - **Backend:** Ktor Server 3.4.1 (Netty engine)
-- **Web frontend:** React 18.2.0 + TypeScript + Vite
+- **Web frontend:** Next.js + React 18.2.0 + TypeScript
 - **Build:** Gradle with Kotlin DSL, configuration cache + build cache enabled
 - **DI / Networking / Database:** None configured (starter template)
