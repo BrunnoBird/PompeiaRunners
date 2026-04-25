@@ -1,10 +1,10 @@
 # Project State
 
-_Last updated: 2026-04-21_
+_Last updated: 2026-04-25_
 
 ## Status
 
-Backend auth spec + design complete (AUTH-01 → AUTH-08). Ready for tasks breakdown.
+Backend auth tasks breakdown complete (14 tasks, all 12 P1 requirements mapped). Ready for execution.
 
 ## Decisions
 
@@ -30,7 +30,7 @@ _None currently._
 - [x] Create ROADMAP.md with feature milestones
 - [x] Specify backend-auth feature → `.specs/features/backend-auth/spec.md`
 - [x] Design backend-auth → architecture, Exposed ORM setup, Ktor plugin config
-- [ ] Break backend-auth into atomic tasks → `tasks.md`
+- [x] Break backend-auth into atomic tasks → `tasks.md`
 - [ ] Choose and document architecture pattern (MVVM recommended for Compose Multiplatform)
 - [ ] Choose and configure DI (Koin is idiomatic for KMP)
 - [ ] Choose and configure networking client (Ktor Client for KMP)
